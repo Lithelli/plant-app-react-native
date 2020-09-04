@@ -1,5 +1,5 @@
 import React from 'react';
-import {StyleSheet,View, Image} from 'react-native'
+import {View, Image} from 'react-native'
 import PropTypes from 'prop-types'
 
 
@@ -37,14 +37,6 @@ class AsyncImage extends React.Component {
     );
   }
 }
-
-const styles = StyleSheet.create({
-    container: {
-        flex: 1,
-        justifyContent: 'center',
-        alignItems: 'center',
-    },
-})
 
 AsyncImage.propTypes ={
 }
